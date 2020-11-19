@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFollower"
+            style="@style/sty_btn"
+            android:layout_width="200dp"
+            android:text="RxJava/Retrofit" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnlifecycle"
+                style="@style/sty_btn"
+                android:text="lifecycle" />
+
+            <Button
+                android:id="@+id/btn_popup"
+                style="@style/sty_btn"
+                android:text="popup" />
+
+            <Button
+                android:id="@+id/btnRecycler"
+                style="@style/sty_btn"
+                android:text="Recycler" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_doubleclick"
+                style="@style/sty_btn"
+                android:text="防抖动" />
+
+            <Button
+                android:id="@+id/btn_notify"
+                style="@style/sty_btn"
+                android:text="通知（8.0）" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAnr"
+                android:text="ANRTest"
+                style="@style/sty_btn" />
+
+            <Button
+                android:id="@+id/btnAnimator"
+                style="@style/sty_btn"
+                android:text="动画" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
